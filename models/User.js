@@ -14,5 +14,5 @@ let schema = new mongoose.Schema({
 
 let collection ="users" /* siempre debe ser en plural porque es un conjuto de recursos/datos/docs en lo posible minuscula*/
 
-let User = mongoose.model(schema,collection)
+let User = mongoose.model(collection,schema)
 export default User
