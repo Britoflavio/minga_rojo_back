@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
 
 router.use('/auth',userRouter)
 router.use('/authors',authorRouter)
-router.use('/cateogires',categoryRouter)
+router.use('/categories',categoryRouter)
 router.use('/companies',companyRouter)
 router.use('/mangas',mangaRouter)
 router.use('/chapters',chapterRouter)
